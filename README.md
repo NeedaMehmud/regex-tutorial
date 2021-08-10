@@ -1,24 +1,54 @@
-# Regex-Tutorial
- A tutorial that explains how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what it does.
+# Regex Tutorial
 
-## User Story
+Welcome to Regex Tutorial! What is Regex? Let's hop on to the summary section below to get to know it more.
 
-```md
-AS A web development student
-I WANT a tutorial explaining a specific regex
-SO THAT I can understand the search pattern the regex defines
-```
+## Summary
 
-## Acceptance Criteria
+Regex stands for a regular expression. It is a special text string for describing a search pattern. You can think of regular expressions as wildcards on steroids. You are probably familiar with wildcard notations such as *.txt to find all text files in a file manager. The regex equivalent is ^.*\.txt$. Cool, right? 
 
-```md
-GIVEN a regex tutorial
-WHEN I open the tutorial
-THEN I see a descriptive title and introductory paragraph explaining the purpose of the tutorial, a summary describing the regex featured in the tutorial, a table of contents linking to different sections that break down each component of the regex and explain what it does, and a section about the author with a link to the author’s GitHub profile
-WHEN I click on the links in the table of contents
-THEN I am taken to the corresponding sections of the tutorial
-WHEN I read through each section of the tutorial
-THEN I find a detailed explanation of what a specific component of the regex does
-WHEN I reach the end of the tutorial
-THEN I find a section about the author and a link to the author’s GitHub profile
-```
+In this tutorial we will be using the most common regular expression: an e-mail address.
+How can we write a regular expression of mehmudneed@gmail.com? Let's break this down line by line.
+
+My e-mail address can be broken down into groups below:
+
+- String of characters 
+- And/or dots
+- And/or underscores
+- And/or digits 
+- Hyphens 
+- The at sign (@)
+- The domain name that can be a string of characters and/or digits
+- The extension preceeded by a dot (.)
+
+## Table of Contents
+
+- [Anchors](#anchors)
+- [Quantifiers](#quantifiers)
+- [Grouping Constructs](#grouping-constructs)
+- [Bracket Expressions](#bracket-expressions)
+- [Character Classes](#character-classes)
+- [The OR Operator](#the-or-operator)
+- [Flags](#flags)
+- [Character Escapes](#character-escapes)
+
+## Regex Components
+
+### Anchors
+
+### Quantifiers
+
+### Grouping Constructs
+
+### Bracket Expressions
+
+### Character Classes
+
+### The OR Operator
+
+### Flags
+
+### Character Escapes
+
+## Author
+
+A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
