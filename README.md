@@ -1,6 +1,6 @@
 # Regex Tutorial
 
-Welcome to Regex Tutorial! What is Regex? Let's hop on to the summary section below to get to know it more.
+<img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Welcome to Regex Tutorial! What is Regex? Let's hop on to the summary section below to get to know it more.
 
 ## Summary
 
