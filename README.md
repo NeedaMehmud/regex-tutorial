@@ -66,7 +66,7 @@ How can we write a regular expression of mehmudneed@gmail.com to `^mehmudneed@gm
 
 
 ## Sources
-- https://docs.microsoft.com/en-us/dotnet/standard/base-types/grouping-constructs-in-regular-expressions
+- https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference
 - https://www.regular-expressions.info/tutorial.html
 - https://www.markdownguide.org/extended-syntax/
 
