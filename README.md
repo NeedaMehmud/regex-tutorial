@@ -10,7 +10,7 @@ Regex stands for a regular expression. It is a special text string for describin
  Cool, right? 🤯
 
 In this tutorial we will be using the most common regular expression: an e-mail address.
-How can we write a regular expression of mehmudneed@gmail.com to `^mehmudneed@gmail\.com$
+How can we write a regular expression of mehmudneed@gmail.com like  this:  `^mehmudneed@gmail\.com$
 `? Let's break this down line by line.
 
 ## Table of Contents
