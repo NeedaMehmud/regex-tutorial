@@ -13,24 +13,12 @@ In this tutorial we will be using the most common regular expression: an e-mail 
 How can we write a regular expression of mehmudneed@gmail.com to `^mehmudneed@gmail\.com$
 `? Let's break this down line by line.
 
-My e-mail address can be broken down into groups below:
-
-- String of characters 
-- And/or dots (`.`)
-- And/or underscores (`_`)
-- And/or digits 
-- Hyphens (`-`)
-- The `@` sign 
-- The domain name that can be a string of characters and/or digits
-- The extension preceeded by a dot (`.`)
-
 ## Table of Contents
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
 - [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
-- [Character Escapes](#character-escapes)
 
 ## Regex Components
 
@@ -67,10 +55,9 @@ My e-mail address can be broken down into groups below:
 | `()`       | Grouping unifies a pattern or string so that it is matched in a complete block |`(ab)` means `a` and `b` form a group | In `([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})`, there are 3 distinct groups. Group 1: `[a-z0-9_\.-]+`  Group 2: `[\da-z\.-]+`  Group 3: `[a-z\.]{2,6}`
 
 
-### Bracket Expressions
-A bracket expression is either a matching list expression or a non-matching list expression. It consists of one or more expressions: ordinary characters, collating elements, collating symbols, equivalence classes, character classes, or range expressions.
+## Bracket Expressions
+🧠 A bracket expression is either a matching list expression or a non-matching list expression. It consists of one or more expressions: ordinary characters, collating elements, collating symbols, equivalence classes, character classes, or range expressions.
 
-### Bracket Expressions
 | Symbol      | Description | Example   |E-mail regex example|
 | ----------- | ----------- |-----------|-----------|
 |`[]`   | Matching any single character within the brackets | `[C]a[tr]` means any matching strings that have `C` followed by an `a` then a `t` or a `r` like : `Car` or `Cat`|`[a-z0-9_\.-]` means any matching with `a-z0-9_\.-`
@@ -78,13 +65,15 @@ A bracket expression is either a matching list expression or a non-matching list
 
 
 
-## Source
+## Sources
 - https://docs.microsoft.com/en-us/dotnet/standard/base-types/grouping-constructs-in-regular-expressions
 - https://www.regular-expressions.info/tutorial.html
+- https://www.markdownguide.org/extended-syntax/
 
 
-### Test Your Skills Here! https://regex101.com/
+## Test Your Skills Here! 
+- https://regex101.com/
 
 ## Author
 
-Questions? 🗣️ You can reach me here (replace with your information and a link to your profile)
+☕ Questions? You can reach me at my [github profile](https://github.com/needamehmud2017)
